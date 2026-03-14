@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Face Scanning App</title>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image:alt" content="圖片無法顯示"/>  <!--分享圖片的替代文字-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css" media="screen"/>
+    <link rel="stylesheet" href="style.min.css" media="screen"/>
+  </head>
+
+  <body>
+    <div class="title">
+      <h1>Face Scanning App</h1>
+    </div>
+    <hr/>
+    <h2>請掃臉以完成點名：</h2>
+    <video id="webcam" autoplay></video>
+    <button id="capture-btn">Capture</button>
+    <canvas id="captured-image" style="display:none;"></canvas> 
+    <button id="retake-btn" style="display:none;">retake</button>
+    <button id="predict-btn" style="display:none;">predict</button>
+    <p id="loading-message" style="display:none;">預測中，請稍等...</p> 
+    <hr/>
+    <p id="prediction-result"></p>
+    <button id="reset-btn" style="display:none;">Reset</button>
+
+    <script src="renderer.js"></script>
+
+  </body>
+</html>
+

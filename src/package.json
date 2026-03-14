@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eletron": "^0.0.1-security",
+    "puppeteer": "^21.4.1"
+  },
+  "devDependencies": {
+    "electron": "^27.3.11"
+  }
+}
