@@ -7,3 +7,8 @@
 ## **DEMO影片**: 
 
 [![觀看 Demo 影片](https://img.youtube.com/vi/SE5jiLI6Kxw/0.jpg)](https://www.youtube.com/watch?v=SE5jiLI6Kxw)
+
+
+## **論文** ##
+
+[点击查看项目说明文档 (PDF)](./documents/基於單一樣本學習技術之課堂點名系統.pdf)
